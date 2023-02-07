@@ -1,0 +1,64 @@
+body
+{
+    background-image: url(src/VS-2-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container
+{
+    position: relative;
+    top: 100px;
+    background-color: aliceblue; 
+    width: 990px;
+    height: 450px; 
+    position: relative; 
+    top: 150px;
+    border-radius: 20px;
+}
+
+.flexbox-container
+{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content:space-between;
+    
+}
+
+.text{
+    font-size: 17px;
+    position: relative;
+    top: 40px;
+}
+h1{
+    position: relative;
+    top: 20px;
+    text-decoration: underline 1px solid;
+}
+
+.item-1
+{
+    margin-top: 5px;
+}
+
+.item-2
+{
+margin-top: 5px;
+}
+
+.item-3
+{
+ margin-top: 5px;
+}
+
+.btnProceed
+{
+    position: relative;
+    top: 100px;
+
+}
+
+

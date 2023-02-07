@@ -1,0 +1,50 @@
+body
+{
+    background-image: url('/src/Mat\ Website\ Background.jpg');
+    background-size: cover;
+    background-attachment:scroll;
+    background-repeat: no-repeat;    
+}
+
+#cover
+{
+    background-color: black;
+}
+
+
+#velvLogo
+{
+    position: relative;
+    left: 1000px;
+    top: 50px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+.container
+{
+    position: absolute;
+    width: auto;
+    left: 35%;
+    top: 30px;
+}
+.topnav
+{
+ overflow: hidden;
+}
+.topnav a{
+    color: aliceblue;
+    padding: 17px 14px;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+    background-blend-mode: color-burn;
+}
+
+.topnav a:hover{
+ color: aqua;
+}
+
+#lorem
+{
+    font-size: 20px;
+}
